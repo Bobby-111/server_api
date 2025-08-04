@@ -20,8 +20,8 @@ app.add_middleware(
 
 # Initialize OpenAI client
 client = OpenAI(
-    api_key='ddc-a4f-855384d75c8046eca45d4f38e15da4f3',
-    base_url="https://api.a4f.co/v1"
+    api_key='api_key',
+    base_url="base_url"
 )
 
 MODEL = "provider-6/gemini-2.5-flash"
